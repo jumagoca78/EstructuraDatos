@@ -20,6 +20,8 @@ public class App {
         c.right = f;
 
         //recorremos el arbol
-        tree.recorrer(a);
+        tree.recorrerRecursivo(a);
+        System.out.println("");
+        tree.BFS(a);
     }
 }
